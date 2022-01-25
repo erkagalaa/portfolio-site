@@ -1,0 +1,27 @@
+
+body {
+    max-width: 1120px;
+    width: 100%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.hero {
+    background-color: orange;
+    height: 80vh;
+}
+
+.about {
+    background-color: salmon;
+    height: 80vh;
+}
+
+.projects {
+    background-color: palevioletred;
+    height: 60vh;
+}
+
+.contact {
+    background-color: rebeccapurple;
+    height: 40vh;
+}
