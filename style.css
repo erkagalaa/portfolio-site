@@ -1,27 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     max-width: 1120px;
-    width: 100%;
     margin: auto;
     background-color: aqua;
 }
 
-.hero {
-    background-color: orange;
-    height: 80vh;
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background-color: aquamarine;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero img {
+    height: 100vh;
 }
 
 .about {
     background-color: salmon;
-    height: 80vh;
+    height: 100vh;
 }
 
 .projects {
     background-color: palevioletred;
-    height: 60vh;
+    height: 100vh;
 }
 
 .contact {
     background-color: rebeccapurple;
-    height: 40vh;
+    height: 100vh;
 }
