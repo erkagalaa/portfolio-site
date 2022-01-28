@@ -14,8 +14,7 @@ header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 60px;
-    background-color: aquamarine;
+    height: 40px;
 }
 
 header nav ul {
@@ -31,13 +30,27 @@ header nav ul li {
 header nav ul li:last-child {
     margin-right: 0;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: black;
 }
 
+.hero .wrapper .hero-image {
+    position: relative;
+}
+
+.hero .wrapper .description {
+    position: absolute;
+    bottom: 69px;
+    left: 70px;
+    font-size: 39px;
+}
+
 .hero img {
     height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 .about {
